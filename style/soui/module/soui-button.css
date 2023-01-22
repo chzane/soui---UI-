@@ -1,6 +1,5 @@
 /*
-    
-    该样式所用颜色
+    按钮样式库
 */
 :root{
     --bgColor: #e9e7ef; /* 按钮背景色 */
@@ -10,12 +9,34 @@
     --tipColor: #177cb0; /* 提示按钮颜色 */
 }
 .soui-btn{
-    background-color: var(--bgColor); /* Green */
+    background-color: var(--bgColor);
     border: none;
+    border-radius: 6px;
     color: var(--defaultColor);
-    padding: 15px 32px;
+    padding: 9px 30px;
+    cursor: pointer;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.soui-correct-btn{
+    color: var(--correctColor);
+}
+.soui-error-btn{
+    color: var(--errorColor);
+}
+.soui-tip-btn{
+    color: var(--tipColor);
+}
+.soui-left-btn{
+    float: left;
+}
+.soui-right-btn{
+    float: right;
+}
+.soui-noclick-btn{
+    cursor: not-allowed;
 }
