@@ -1,0 +1,21 @@
+/*
+    
+    该样式所用颜色
+*/
+:root{
+    --bgColor: #e9e7ef; /* 按钮背景色 */
+    --defaultColor: #000000; /* 默认按钮颜色 */
+    --correctColor: #0c8918; /* 正确按钮颜色 */
+    --errorColor: #c3272b; /* 错误按钮颜色 */
+    --tipColor: #177cb0; /* 提示按钮颜色 */
+}
+.soui-btn{
+    background-color: var(--bgColor); /* Green */
+    border: none;
+    color: var(--defaultColor);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
